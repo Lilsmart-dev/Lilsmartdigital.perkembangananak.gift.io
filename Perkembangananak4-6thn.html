@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perkembangan Anak Usia 4-6 Tahun</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 80%;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #2c3e50;
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      color: #2980b9;
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    .checklist {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .checklist li {
+      margin: 10px 0;
+    }
+
+    input[type="text"] {
+      padding: 8px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+
+    #result {
+      text-align: center;
+      font-size: 1.2rem;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Perkembangan Anak Usia 4-6 Tahun</h1>
+
+    <!-- Form untuk nama anak, anak ke, dan nama orang tua -->
+    <div>
+      <label for="childName">Nama Anak:</label>
+      <input type="text" id="childName" placeholder="Masukkan nama anak">
+    </div>
+    <div>
+      <label for="childOrder">Anak Ke:</label>
+      <input type="text" id="childOrder" placeholder="Masukkan urutan anak (misal: ke-1)">
+    </div>
+    <div>
+      <label for="parentName">Nama Orang Tua:</label>
+      <input type="text" id="parentName" placeholder="Masukkan nama orang tua">
+    </div>
+
+    <!-- Kategori Moral & Nilai Agama -->
+    <section>
+      <h2>Moral & Nilai Agama</h2>
+      <h3>Usia 4-5 Tahun</h3>
+      <ul class="checklist">
+        <li><input type="checkbox" id="check1"> Mengenal tempat-tempat ibadah.</li>
+        <li><input type="checkbox" id="check2"> Mengenal hari-hari besar agama.</li>
+        <li><input type="checkbox" id="check3"> Berdoa sebelum dan sesudah melaksanakan kegiatan secara berurutan.</li>
+        <li><input type="checkbox" id="check4"> Menyanyi lagu-lagu keagamaan.</li>
+        <li><input type="checkbox" id="check5"> Mulai terlibat dalam acara keagamaan.</li>
+      </ul>
+
+      <h3>Usia 5-6 Tahun</h3>
+      <ul class="checklist">
+        <li><input type="checkbox" id="check6"> Mengenal pokok ajaran agama dan dapat menyebutkan beberapa ajaran agama.</li>
+        <li><input type="checkbox" id="check7"> Mampu berdoa sesuai dengan ajaran agama yang dianut.</li>
+        <li><input type="checkbox" id="check8"> Terlibat dalam kegiatan sosial keagamaan dengan penuh kesadaran.</li>
+      </ul>
+    </section>
+
+    <!-- Kategori Sosial, Emosional & Kemandirian -->
+    <section>
+      <h2>Sosial, Emosional & Kemandirian</h2>
+      <h3>Usia 4-5 Tahun</h3>
+      <ul class="checklist">
+        <li><input type="checkbox" id="check9"> Bersedia bermain dengan teman sebaya tanpa membedakan (warna kulit, keturunan, rambut, agama, dll.).</li>
+        <li><input type="checkbox" id="check10"> Mau memuji teman/orang lain.</li>
+        <li><input type="checkbox" id="check11"> Mengajak teman untuk bermain/belajar.</li>
+        <li><input type="checkbox" id="check12"> Berkomunikasi dengan orang dewasa ketika melakukan sesuatu (membuat kue, memasak, dll.).</li>
+        <li><input type="checkbox" id="check13"> Berkomunikasi dengan temannya ketika mengalami musibah (misal: sakit, sedih, dll.).</li>
+      </ul>
+
+      <h3>Usia 5-6 Tahun</h3>
+      <ul class="checklist">
+        <li><input type="checkbox" id="check14"> Mulai belajar menolong teman yang membutuhkan.</li>
+        <li><input type="checkbox" id="check15"> Mampu bekerja sama dengan teman dalam permainan atau tugas kelompok.</li>
+        <li><input type="checkbox" id="check16"> Mampu mengatasi emosi dan frustrasi secara lebih baik.</li>
+        <li><input type="checkbox" id="check17"> Lebih mandiri dalam hal kebersihan diri dan membantu pekerjaan rumah tangga ringan.</li>
+      </ul>
+    </section>
+
+    <!-- Kategori Bahasa -->
+    <section>
+      <h2>Bahasa</h2>
+      <h3>Usia 4-5 Tahun</h3>
+      <ul class="checklist">
+        <li><input type="checkbox" id="check18"> Menyebutkan nama diri, nama orang tua, jenis kelamin, tanggal dan bulan kelahirannya, alamat rumah dengan lengkap.</li>
+        <li><input type="checkbox" id="check19"> Menceritakan pengalaman/kejadian secara sederhana dengan runtut.</li>
+        <li><input type="checkbox" id="check20"> Menjawab pertanyaan sederhana.</li>
+        <li><input type="checkbox" id="check21"> Berbicara lancar dengan menggunakan kalimat yang kompleks terdiri atas 5-6 kata.</li>
+        <li><input type="checkbox" id="check22"> Bercerita menggunakan kata ganti aku, saya, kamu, dia, mereka.</li>
+      </ul>
+
+      <h3>Usia 5-6 Tahun</h3>
+      <ul class="checklist">
+        <li><input type="checkbox" id="check23"> Mampu bercerita dengan urutan waktu yang lebih jelas.</li>
+        <li><input type="checkbox" id="check24"> Mampu menggunakan kalimat yang lebih panjang dan kompleks.</li>
+        <li><input type="checkbox" id="check25"> Menggunakan kata-kata penghubung dengan benar (misalnya: tetapi, dan, karena, dll.).</li>
+      </ul>
+    </section>
+
+    <!-- Kategori Kognitif -->
+    <section>
+      <h2>Kognitif</h2>
+      <h3>Usia 4-5 Tahun</h3>
+      <ul class="checklist">
+        <li><input type="checkbox" id="check26"> Mengelompokkan benda dengan berbagai cara yang diketahui anak. Misalnya; Menurut warna, bentuk, ukuran, jenis, dll.</li>
+        <li><input type="checkbox" id="check27"> Menunjuk sebanyak-banyaknya benda, hewan, tanaman yang mempunyai warna, bentuk atau ukuran atau menurut ciri-ciri tertentu.</li>
+        <li><input type="checkbox" id="check28"> Membilang/menyebut urutan bilangan dari 1 sampai 20.</li>
+        <li><input type="checkbox" id="check29"> Membilang dengan menunjuk benda (mengenal konsep bilangan dengan benda-benda sampai 10).</li>
+        <li><input type="checkbox" id="check30"> Menunjukkan urutan benda untuk bilangan sampai 10.</li>
+      </ul>
+
+      <h3>Usia 5-6 Tahun</h3>
+      <ul class="checklist">
+        <li><input type="checkbox" id="check31"> Mengenal konsep waktu sederhana, seperti pagi, siang, sore, malam.</li>
+        <li><input type="checkbox" id="check32"> Menghitung benda dengan tepat hingga 30.</li>
+        <li><input type="checkbox" id="check33"> Mengenal pola sederhana (misalnya: pola warna, bentuk, dll.).</li>
+        <li><input type="checkbox" id="check34"> Menyusun benda sesuai kategori (misalnya: berdasarkan ukuran, warna, dll.).</li>
+      </ul>
+    </section>
+
+    <button id="submitBtn">Submit</button>
+    <div id="result"></div>
+  </div>
+
+  <script>
+    // Load data from localStorage if available
+    window.onload = function() {
+      if (localStorage.getItem("childName")) {
+        document.getElementById("childName").value = localStorage.getItem("childName");
+      }
+      if (localStorage.getItem("childOrder")) {
+        document.getElementById("childOrder").value = localStorage.getItem("childOrder");
+      }
+      if (localStorage.getItem("parentName")) {
+        document.getElementById("parentName").value = localStorage.getItem("parentName");
+      }
+
+      // Restore checkbox states
+      for (let i = 1; i <= 34; i++) {
+        const checkbox = document.getElementById("check" + i);
+        if (localStorage.getItem("check" + i) === "true") {
+          checkbox.checked = true;
+        } else {
+          checkbox.checked = false;
+        }
+      }
+    };
+
+    // Save data to localStorage
+    document.getElementById("submitBtn").addEventListener("click", function() {
+      const childName = document.getElementById("childName").value;
+      const childOrder = document.getElementById("childOrder").value;
+      const parentName = document.getElementById("parentName").value;
+
+      // Save form data to localStorage
+      localStorage.setItem("childName", childName);
+      localStorage.setItem("childOrder", childOrder);
+      localStorage.setItem("parentName", parentName);
+
+      // Save checkbox states to localStorage
+      for (let i = 1; i <= 34; i++) {
+        const checkbox = document.getElementById("check" + i);
+        localStorage.setItem("check" + i, checkbox.checked);
+      }
+
+      // Display the result
+      let checkedItems = [];
+      const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+      checkboxes.forEach((checkbox) => {
+        if (checkbox.checked) {
+          checkedItems.push(checkbox.parentElement.textContent.trim());
+        }
+      });
+
+      const result = document.getElementById("result");
+      if (checkedItems.length > 0) {
+        result.innerHTML = "<h3>Indikator yang dipilih:</h3><ul>" +
+                            checkedItems.map(item => `<li>${item}</li>`).join('') +
+                            "</ul>";
+      } else {
+        result.innerHTML = "<h3>Belum ada indikator yang dipilih.</h3>";
+      }
+    });
+  </script>
+</body>
+</html>
